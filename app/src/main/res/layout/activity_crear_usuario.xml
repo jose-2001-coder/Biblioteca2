@@ -44,13 +44,10 @@
                 android:layout_marginLeft="12dp"
                 android:hint="Nombre" />
 
-            <EditText
+            <Spinner
                 android:id="@+id/etRol"
-                android:layout_width="310dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="12dp"
-                android:hint="Rol" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <EditText
                 android:id="@+id/etNombre2"
